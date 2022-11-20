@@ -1,0 +1,22 @@
+.main_container {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+
+  .datos_container,
+  .pdf_container {
+    width: 50%;
+  }
+
+  .pdf_container {
+    overflow: 0;
+    .pdf_viewer {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .sobre_mi {
+    height: 300px;
+  }
+}
